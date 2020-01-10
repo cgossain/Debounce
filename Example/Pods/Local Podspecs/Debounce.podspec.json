@@ -18,6 +18,8 @@
   "platforms": {
     "ios": "11.4"
   },
+  "swift_versions": "5.0",
   "source_files": "Debounce/Classes/**/*",
-  "frameworks": "Foundation"
+  "frameworks": "Foundation",
+  "swift_version": "5.0"
 }

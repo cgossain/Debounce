@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.author           = { 'cgossain' => 'cgossain@gmail.com' }
   s.source           = { :git => 'https://github.com/cgossain/Debounce.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.4'
+  s.swift_version = '5.0'
   s.source_files = 'Debounce/Classes/**/*'
   s.frameworks = 'Foundation'
 end
