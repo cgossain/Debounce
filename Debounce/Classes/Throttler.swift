@@ -28,21 +28,27 @@ import Foundation
 ///
 /// http://danielemargutti.com/2017/10/19/throttle-in-swift/
 public class Throttler {
+    /// A unique identifier for the throttler. This identifier is used as part of the internal dispatch queue label.
+    public let identifier: String
+    
+    /// Internal serial execution queue initialized with the specified QOS class.
+    public let queue: DispatchQueue
+    
     private var throttlingInterval: Double // seconds
     private var maxInterval: Double // seconds; set to zero to always delay firing
     private var resetThreshold: Double // seconds
-    private let queue: DispatchQueue
     private var currenWorkItem: DispatchWorkItem = DispatchWorkItem(block: {})
     private var lastRun = Date.timeIntervalSinceReferenceDate
     
-    public init(throttlingInterval: Double, maxInterval: Double = 0, resetThreshold: Double = 0, qosClass: DispatchQoS.QoSClass = .background) {
+    public init(identifier: String = UUID().uuidString, throttlingInterval: Double, maxInterval: Double = 0, resetThreshold: Double = 0, qosClass: DispatchQoS.QoSClass = .background) {
+        self.identifier = identifier
         self.throttlingInterval = throttlingInterval
         self.maxInterval = maxInterval
         self.resetThreshold = resetThreshold
-        self.queue = DispatchQueue.global(qos: qosClass)
+        self.queue = DispatchQueue(label: "com.debounce.throttler.\(identifier)", qos: DispatchQoS(qosClass: qosClass, relativePriority: 0))
     }
     
-    public func throttle(block: @escaping () -> ()) {
+    public func throttle(fireNow: Bool = false, block: @escaping () -> ()) {
         currenWorkItem.cancel()
         currenWorkItem = DispatchWorkItem() { [weak self] in
             guard let strongSelf = self else { return }
@@ -50,7 +56,11 @@ public class Throttler {
             strongSelf.lastRun = Date.timeIntervalSinceReferenceDate
         }
         
-        if maxInterval == 0 {
+        if fireNow {
+            // enqueue for immediate execution
+            queue.async(execute: currenWorkItem)
+        }
+        else if maxInterval == 0 {
             // keep throttling
             queue.asyncAfter(deadline: .now() + throttlingInterval, execute: currenWorkItem)
         }
