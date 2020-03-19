@@ -36,15 +36,13 @@ public class Throttler {
     
     private var throttlingInterval: Double // seconds
     private var maxInterval: Double // seconds; set to zero to always delay firing
-    private var resetThreshold: Double // seconds
     private var currenWorkItem: DispatchWorkItem = DispatchWorkItem(block: {})
     private var lastRun = Date.timeIntervalSinceReferenceDate
     
-    public init(identifier: String = UUID().uuidString, throttlingInterval: Double, maxInterval: Double = 0, resetThreshold: Double = 0, qosClass: DispatchQoS.QoSClass = .background) {
+    public init(identifier: String = UUID().uuidString, throttlingInterval: Double, maxInterval: Double = 0, qosClass: DispatchQoS.QoSClass = .background) {
         self.identifier = identifier
         self.throttlingInterval = throttlingInterval
         self.maxInterval = maxInterval
-        self.resetThreshold = resetThreshold
         self.queue = DispatchQueue(label: "com.debounce.throttler.\(identifier)", qos: DispatchQoS(qosClass: qosClass, relativePriority: 0))
     }
     
