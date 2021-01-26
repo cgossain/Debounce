@@ -22,7 +22,7 @@ pod 'Debounce'
 
 ## Author
 
-cgossain, cgossain@gmail.com
+Christian Gossain, cgossain@gmail.com
 
 ## License
 
