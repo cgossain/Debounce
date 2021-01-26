@@ -28,7 +28,7 @@ import Foundation
 ///
 /// This class was inspired by this blog post:
 /// http://danielemargutti.com/2017/10/19/throttle-in-swift/
-public class Throttler {
+public final class Throttler {
     /// A unique identifier for the throttler. This identifier is used as part of the internal dispatch queue label.
     public let identifier: String
     
