@@ -28,7 +28,7 @@ import Foundation
 ///
 /// This class was inspired by this blog post:
 /// http://danielemargutti.com/2017/10/19/throttle-in-swift/
-public final class Throttler: Identifiable {
+public final class Throttler {
     /// The stable identity of the throttler instance.
     ///
     /// This identifier is used as part of the receivers' dispatch queue label.
