@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Debounce'
-  s.version          = '1.3.1'
+  s.version          = '1.4.0'
   s.summary          = 'A tiny library used for debouncing (throttling) needs, written in Swift.'
   s.description      = <<-DESC
   This library is designed to be a lightweight dependency to satisfy debouncing or throttling needs.
