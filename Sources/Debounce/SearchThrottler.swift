@@ -22,7 +22,7 @@
 //  THE SOFTWARE.
 //
 
-import Foundation
+import UIKit
 
 /// An object that implements the `UISearchResultsUpdating` protocol and can be used to debounce search updates.
 public final class SearchThrottler: NSObject {
