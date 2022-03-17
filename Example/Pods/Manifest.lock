@@ -1,5 +1,5 @@
 PODS:
-  - Debounce (1.4.0)
+  - Debounce (1.5.0)
 
 DEPENDENCIES:
   - Debounce (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Debounce: b6ede9b54dc58daa059233012c7f54d9ddefda05
+  Debounce: 7543f5d7d0c2645321b9b4d2edb80934a4d049c6
 
-PODFILE CHECKSUM: 9d45ee04fe1ab210bf54d0acd847317096d53cea
+PODFILE CHECKSUM: b8f6998eb0bf1421dd4d360d1695d70608e31119
 
 COCOAPODS: 1.11.3

@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22880901CA243EEED89808FC740E682D /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1787E3BF1A1D5F1F99F68EEC810BDA6 /* Throttler.swift */; };
+		19FB754BE2A20F3E0CB7FF9D64246106 /* SearchThrottler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2EAF4727EE108AE638226EB7200B75 /* SearchThrottler.swift */; };
 		24F9860CC4BE06F7686E31E6E657151B /* Pods-Debounce_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 659BC7704F8BEA48AC854CD27B245D17 /* Pods-Debounce_Example-dummy.m */; };
 		26CB2478ACF6DB74EF29A6A433568057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		42BA98267C3B7704D1DCF993BCC87E9B /* Pods-Debounce_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB51F16531E5BCD86D720912716CE0DA /* Pods-Debounce_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		512089AAACCE6066EAE683A9242F8889 /* Debounce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F8E2930E5303364AA1120C0FC2569A /* Debounce-dummy.m */; };
+		512089AAACCE6066EAE683A9242F8889 /* Debounce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9166F572C5C0B3180B3EE35A1DFEC958 /* Debounce-dummy.m */; };
 		80941C2A1A7630453AD462693F028A2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		884CFD98C4A2C523DC152E858685B717 /* SearchThrottler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6FE2AAF6655FD9DFD5882F5B6646C /* SearchThrottler.swift */; };
+		AB36D1C053A58714E583D724C7AAC9EE /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078336C036366CCF5C13B421F08E12E4 /* Throttler.swift */; };
 		B1C61A34205B6C9CACEA53280DE023F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C6E882E4C526742C49486EE52BD3B92F /* Pods-Debounce_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB21CAB1760690B6885D1FEDFA7233C0 /* Pods-Debounce_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCF666F936D6C1E21B4324E17062D6E4 /* Debounce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E72EA4972E34A355142160963EBCEC41 /* Debounce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCF666F936D6C1E21B4324E17062D6E4 /* Debounce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A74726D2A57EE3616046CD65C44D42F9 /* Debounce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDE8B419B7600825E1A339B969217023 /* Pods-Debounce_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 409C23D8DA4A4A69D3A71B5E84FE1EDA /* Pods-Debounce_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -38,40 +38,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078336C036366CCF5C13B421F08E12E4 /* Throttler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttler.swift; path = Sources/Debounce/Throttler.swift; sourceTree = "<group>"; };
 		20A17CE28954B0B23227D6CB6F0C757A /* Pods-Debounce_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Debounce_Example-Info.plist"; sourceTree = "<group>"; };
 		2CF3C7160EF3EEEB6A21056E50617906 /* Pods-Debounce_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Debounce_Tests"; path = Pods_Debounce_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FDAF327DDC9ED3BB057A54DF915202 /* Debounce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Debounce-Info.plist"; sourceTree = "<group>"; };
 		36ABD32261B167EB168220017DD6985E /* Pods-Debounce_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Debounce_Tests-Info.plist"; sourceTree = "<group>"; };
 		409C23D8DA4A4A69D3A71B5E84FE1EDA /* Pods-Debounce_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Debounce_Tests-dummy.m"; sourceTree = "<group>"; };
 		42B31BEE68516F08554ACB11ED7AE49D /* Pods-Debounce_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Debounce_Example.modulemap"; sourceTree = "<group>"; };
 		47E40C7B1E4C1D58F4053E763CE11775 /* Pods-Debounce_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Debounce_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4B21E0F7F6EA9859267ADCE89A17979E /* Debounce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debounce.debug.xcconfig; sourceTree = "<group>"; };
 		4C3DF23633458F512935BB52358B1C00 /* Pods-Debounce_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Debounce_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5421B6B32A51887DF1480AEFF11850CC /* Debounce-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Debounce-prefix.pch"; sourceTree = "<group>"; };
 		588806105546D6A49782C39F0180C5A6 /* Pods-Debounce_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Debounce_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		659BC7704F8BEA48AC854CD27B245D17 /* Pods-Debounce_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Debounce_Example-dummy.m"; sourceTree = "<group>"; };
+		6739C7089414866E5DCB0CA269CF679D /* Debounce.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Debounce.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6994B5410FA9C5D610C99C06FE6C6FF2 /* Pods-Debounce_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Debounce_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E74BABECCD7450E8E69171C3A2259E4 /* Pods-Debounce_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Debounce_Tests.modulemap"; sourceTree = "<group>"; };
 		6FA73E874D8299048754B40EB4A982E5 /* Debounce */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Debounce; path = Debounce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7029C2D7A826B9473AA73BD4AB3E14BD /* Debounce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debounce.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8B174B5ABE0526D35EF695F4A2CDB3C1 /* Debounce.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Debounce.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9166F572C5C0B3180B3EE35A1DFEC958 /* Debounce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Debounce-dummy.m"; sourceTree = "<group>"; };
 		9530E74F52819ABCFE37C79725C84B37 /* Pods-Debounce_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Debounce_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9CD0BBDE0B75DC0122AAABCFA14334BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D2E3DFE0D35CF46640877D66A6776CC /* Pods-Debounce_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Debounce_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D2EAF4727EE108AE638226EB7200B75 /* SearchThrottler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchThrottler.swift; path = Sources/Debounce/SearchThrottler.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A10F72553611EA4DC34E68D4BFE58C71 /* Pods-Debounce_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Debounce_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A1168093B82E8970093CD9CDB2EC9A24 /* Debounce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debounce.debug.xcconfig; sourceTree = "<group>"; };
 		A227BA1E52BAF6BA067954E0EBDC3A9D /* Pods-Debounce_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Debounce_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A4A7105B18F6601D37B6D1B555EA33E3 /* Pods-Debounce_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Debounce_Example"; path = Pods_Debounce_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B959E089D3CEA78D970580DA6FB308D3 /* Debounce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Debounce.modulemap; sourceTree = "<group>"; };
+		A74726D2A57EE3616046CD65C44D42F9 /* Debounce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Debounce-umbrella.h"; sourceTree = "<group>"; };
+		A8A88FAB468DE4FEF6C008615330DDFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AA6CF426350F6CD0FF16C92F09FEC67D /* Debounce-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Debounce-prefix.pch"; sourceTree = "<group>"; };
 		BB21CAB1760690B6885D1FEDFA7233C0 /* Pods-Debounce_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Debounce_Example-umbrella.h"; sourceTree = "<group>"; };
-		BDE6FE2AAF6655FD9DFD5882F5B6646C /* SearchThrottler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchThrottler.swift; path = Debounce/Classes/SearchThrottler.swift; sourceTree = "<group>"; };
-		C1787E3BF1A1D5F1F99F68EEC810BDA6 /* Throttler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttler.swift; path = Debounce/Classes/Throttler.swift; sourceTree = "<group>"; };
-		C63FE8061E7D18D795BE2D134FB4CB57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C9F405771F70B912421C6F494C41E77D /* Debounce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Debounce-Info.plist"; sourceTree = "<group>"; };
+		BBC25572D4B2B6DECACF01790E9BAB67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C0A640BBD93E5C777C95694CC4364FD8 /* Debounce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debounce.release.xcconfig; sourceTree = "<group>"; };
 		CE9B46CF3F21D9B37AD178D45CC59FB7 /* Pods-Debounce_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Debounce_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DB51F16531E5BCD86D720912716CE0DA /* Pods-Debounce_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Debounce_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E72EA4972E34A355142160963EBCEC41 /* Debounce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Debounce-umbrella.h"; sourceTree = "<group>"; };
-		F2F8E2930E5303364AA1120C0FC2569A /* Debounce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Debounce-dummy.m"; sourceTree = "<group>"; };
+		E9D7CFAC3BDCD53706598FF8C7CBAAB2 /* Debounce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Debounce.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +102,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		441328DB89A6BF39B101F56924977942 /* Debounce */ = {
+		1D9AD3AB8A1FE1874F9FA0FE7C1FAF40 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BDE6FE2AAF6655FD9DFD5882F5B6646C /* SearchThrottler.swift */,
-				C1787E3BF1A1D5F1F99F68EEC810BDA6 /* Throttler.swift */,
-				672364D32C09170FCFA60B9DFC961D70 /* Pod */,
-				A7E3B78AF42F157534084861A8B945CF /* Support Files */,
+				E9D7CFAC3BDCD53706598FF8C7CBAAB2 /* Debounce.modulemap */,
+				9166F572C5C0B3180B3EE35A1DFEC958 /* Debounce-dummy.m */,
+				31FDAF327DDC9ED3BB057A54DF915202 /* Debounce-Info.plist */,
+				AA6CF426350F6CD0FF16C92F09FEC67D /* Debounce-prefix.pch */,
+				A74726D2A57EE3616046CD65C44D42F9 /* Debounce-umbrella.h */,
+				A1168093B82E8970093CD9CDB2EC9A24 /* Debounce.debug.xcconfig */,
+				C0A640BBD93E5C777C95694CC4364FD8 /* Debounce.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Debounce";
+			sourceTree = "<group>";
+		};
+		3FA1AFE58AB65F871F67F7A5F98C880B /* Debounce */ = {
+			isa = PBXGroup;
+			children = (
+				9D2EAF4727EE108AE638226EB7200B75 /* SearchThrottler.swift */,
+				078336C036366CCF5C13B421F08E12E4 /* Throttler.swift */,
+				BC033CFB328C2F8D2C8BA1A2A2A8F523 /* Pod */,
+				1D9AD3AB8A1FE1874F9FA0FE7C1FAF40 /* Support Files */,
 			);
 			name = Debounce;
 			path = ../..;
@@ -120,16 +135,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		672364D32C09170FCFA60B9DFC961D70 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8B174B5ABE0526D35EF695F4A2CDB3C1 /* Debounce.podspec */,
-				9CD0BBDE0B75DC0122AAABCFA14334BA /* LICENSE */,
-				C63FE8061E7D18D795BE2D134FB4CB57 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		7138DB2DE1005C5389D230353865AB6B /* Products */ = {
@@ -145,24 +150,19 @@
 		7B7D16257B1BCE2DE2A139E9C7667612 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				441328DB89A6BF39B101F56924977942 /* Debounce */,
+				3FA1AFE58AB65F871F67F7A5F98C880B /* Debounce */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A7E3B78AF42F157534084861A8B945CF /* Support Files */ = {
+		BC033CFB328C2F8D2C8BA1A2A2A8F523 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B959E089D3CEA78D970580DA6FB308D3 /* Debounce.modulemap */,
-				F2F8E2930E5303364AA1120C0FC2569A /* Debounce-dummy.m */,
-				C9F405771F70B912421C6F494C41E77D /* Debounce-Info.plist */,
-				5421B6B32A51887DF1480AEFF11850CC /* Debounce-prefix.pch */,
-				E72EA4972E34A355142160963EBCEC41 /* Debounce-umbrella.h */,
-				4B21E0F7F6EA9859267ADCE89A17979E /* Debounce.debug.xcconfig */,
-				7029C2D7A826B9473AA73BD4AB3E14BD /* Debounce.release.xcconfig */,
+				6739C7089414866E5DCB0CA269CF679D /* Debounce.podspec */,
+				A8A88FAB468DE4FEF6C008615330DDFB /* LICENSE */,
+				BBC25572D4B2B6DECACF01790E9BAB67 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Debounce";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CCF90E36C35595FD38ECB9621574264E /* Pods-Debounce_Example */ = {
@@ -371,8 +371,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				512089AAACCE6066EAE683A9242F8889 /* Debounce-dummy.m in Sources */,
-				884CFD98C4A2C523DC152E858685B717 /* SearchThrottler.swift in Sources */,
-				22880901CA243EEED89808FC740E682D /* Throttler.swift in Sources */,
+				19FB754BE2A20F3E0CB7FF9D64246106 /* SearchThrottler.swift in Sources */,
+				AB36D1C053A58714E583D724C7AAC9EE /* Throttler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,109 +410,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A722E87CF1F7386A7BED38E67E4630C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 588806105546D6A49782C39F0180C5A6 /* Pods-Debounce_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Debounce_Tests/Pods-Debounce_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Debounce_Tests/Pods-Debounce_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1E2700F47F6CABE5EB23CC48777BEE1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE9B46CF3F21D9B37AD178D45CC59FB7 /* Pods-Debounce_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Debounce_Example/Pods-Debounce_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Debounce_Example/Pods-Debounce_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		43A6118813D02EACB25069DD0CD9ED3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7029C2D7A826B9473AA73BD4AB3E14BD /* Debounce.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Debounce/Debounce-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Debounce/Debounce-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Debounce/Debounce.modulemap";
-				PRODUCT_MODULE_NAME = Debounce;
-				PRODUCT_NAME = Debounce;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6427804744C4054555383985007A0B6C /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -565,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -578,10 +476,11 @@
 			};
 			name = Debug;
 		};
-		6DDE302EBEF8DF8695A82230DDB7871B /* Debug */ = {
+		3C13824558A712F6B74FB51D35DA4503 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B21E0F7F6EA9859267ADCE89A17979E /* Debounce.debug.xcconfig */;
+			baseConfigurationReference = 588806105546D6A49782C39F0180C5A6 /* Pods-Debounce_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -592,25 +491,61 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Debounce/Debounce-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Debounce/Debounce-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Debounce_Tests/Pods-Debounce_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Debounce/Debounce.modulemap";
-				PRODUCT_MODULE_NAME = Debounce;
-				PRODUCT_NAME = Debounce;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Debounce_Tests/Pods-Debounce_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		74556EDEC03158A3009CA84D67369133 /* Release */ = {
+		3CB60E8AF71502FD871D1C44F0B07FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9B46CF3F21D9B37AD178D45CC59FB7 /* Pods-Debounce_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Debounce_Example/Pods-Debounce_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Debounce_Example/Pods-Debounce_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -660,7 +595,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -672,7 +607,106 @@
 			};
 			name = Release;
 		};
-		DF4A6AEC7781D6DF96CD14A366E93569 /* Release */ = {
+		A540F85F82C570EC34397DE2E66CD96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E40C7B1E4C1D58F4053E763CE11775 /* Pods-Debounce_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Debounce_Example/Pods-Debounce_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Debounce_Example/Pods-Debounce_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D928983BCD77AB8A872E83ADC4AA5B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A640BBD93E5C777C95694CC4364FD8 /* Debounce.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Debounce/Debounce-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Debounce/Debounce-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Debounce/Debounce.modulemap";
+				PRODUCT_MODULE_NAME = Debounce;
+				PRODUCT_NAME = Debounce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF801B693684B9E0E081236CEED6C409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1168093B82E8970093CD9CDB2EC9A24 /* Debounce.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Debounce/Debounce-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Debounce/Debounce-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Debounce/Debounce.modulemap";
+				PRODUCT_MODULE_NAME = Debounce;
+				PRODUCT_NAME = Debounce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F19B45B071484C447C267B5F61D1CE25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A10F72553611EA4DC34E68D4BFE58C71 /* Pods-Debounce_Tests.release.xcconfig */;
 			buildSettings = {
@@ -689,7 +723,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Debounce_Tests/Pods-Debounce_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Debounce_Tests/Pods-Debounce_Tests.modulemap";
@@ -707,48 +741,14 @@
 			};
 			name = Release;
 		};
-		E080BD316F4E9B4F39A3192CB1A4ABA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47E40C7B1E4C1D58F4053E763CE11775 /* Pods-Debounce_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Debounce_Example/Pods-Debounce_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Debounce_Example/Pods-Debounce_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6427804744C4054555383985007A0B6C /* Debug */,
-				74556EDEC03158A3009CA84D67369133 /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -756,8 +756,8 @@
 		7102603EF37749F546F7434E3A04A05F /* Build configuration list for PBXNativeTarget "Pods-Debounce_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E080BD316F4E9B4F39A3192CB1A4ABA2 /* Debug */,
-				1E2700F47F6CABE5EB23CC48777BEE1F /* Release */,
+				A540F85F82C570EC34397DE2E66CD96A /* Debug */,
+				3CB60E8AF71502FD871D1C44F0B07FBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -765,8 +765,8 @@
 		BF0E02A9AF3661336240F67AEB1564FD /* Build configuration list for PBXNativeTarget "Debounce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DDE302EBEF8DF8695A82230DDB7871B /* Debug */,
-				43A6118813D02EACB25069DD0CD9ED3E /* Release */,
+				EF801B693684B9E0E081236CEED6C409 /* Debug */,
+				D928983BCD77AB8A872E83ADC4AA5B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -774,8 +774,8 @@
 		DDEE182B2BC51ABFEC556E769468FFAD /* Build configuration list for PBXNativeTarget "Pods-Debounce_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A722E87CF1F7386A7BED38E67E4630C /* Debug */,
-				DF4A6AEC7781D6DF96CD14A366E93569 /* Release */,
+				3C13824558A712F6B74FB51D35DA4503 /* Debug */,
+				F19B45B071484C447C267B5F61D1CE25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
