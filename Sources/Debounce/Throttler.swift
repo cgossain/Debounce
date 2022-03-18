@@ -29,6 +29,9 @@ import Foundation
 /// This class was inspired by this blog post:
 /// http://danielemargutti.com/2017/10/19/throttle-in-swift/
 public final class Throttler {
+    /// The label prefix used for internal dispatch queues.
+    private static let queueLabelPrefix = "com.cgossain.debounce.throttler"
+
     /// The stable identity of the throttler instance.
     ///
     /// This identifier is used as part of the receivers' dispatch queue label.
@@ -41,7 +44,7 @@ public final class Throttler {
     // MARK: - Private
     
     /// The internal lock queue.
-    private let lockQueue = DispatchQueue(label: "com.debouce.throttler", attributes: .concurrent)
+    private let lockQueue = DispatchQueue(label: "\(Throttler.queueLabelPrefix).lock", attributes: .concurrent)
     
     /// The throttling interval.
     private var throttlingInterval: Double
@@ -98,7 +101,7 @@ public final class Throttler {
         self.id = id
         self.throttlingInterval = throttlingInterval
         self.maxInterval = maxInterval
-        self.queue = DispatchQueue(label: "com.debounce.throttler.\(id)", qos: DispatchQoS(qosClass: qosClass, relativePriority: 0), attributes: [])
+        self.queue = DispatchQueue(label: "\(Throttler.queueLabelPrefix).\(id)", qos: DispatchQoS(qosClass: qosClass, relativePriority: 0), attributes: [])
     }
     
     public func throttle(fireNow: Bool = false, block: @escaping () -> ()) {
