@@ -18,7 +18,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Debounce into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'Debounce', '~> 1.5.0'
+pod 'Debounce', '~> 1.5.1'
 ```
 
 ### Swift Package Manager
@@ -29,7 +29,7 @@ Once you have your Swift package set up, adding Debounce as a dependency is as e
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/cgossain/Debounce.git", .upToNextMajor(from: "1.5.0"))
+    .package(url: "https://github.com/cgossain/Debounce.git", .upToNextMajor(from: "1.5.1"))
 ]
 ```
 

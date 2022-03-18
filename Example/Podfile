@@ -3,10 +3,6 @@ use_frameworks!
 
 target 'Debounce_Example' do
   pod 'Debounce', :path => '../'
-
-  target 'Debounce_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
+  
 end
